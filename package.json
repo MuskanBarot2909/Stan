@@ -1,0 +1,16 @@
+{
+  "name": "race-condition-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "producer.js",
+  "scripts": {
+    "start": "node producer.js && node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "redis": "^3.1.2"
+  }
+}
